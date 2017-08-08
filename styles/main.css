@@ -32,16 +32,10 @@
   color: #902d26;
 }
 
-#tagline {
-  margin-top: 20px;
-}
 #profile {
   margin-top: 20px;
   margin-right: 200px;
   margin-left: 200px;
-}
-
-#tagline, #profile {
   color: #902d26;
 }
 
@@ -60,11 +54,6 @@
 
   #header #name {
     top: 150px;
-  }
-
-  #tagline {
-    margin-right: 200px;
-    margin-left: 200px;
   }
 
   #contact {
