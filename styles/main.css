@@ -37,13 +37,61 @@
 }
 #profile {
   margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
-#profile {
+#tagline, #profile {
   color: #902d26;
 }
 
 #profile img {
-  width: 100%;
-  margin: 10px;
+  max-width: 165;
+  margin-top: 60px;
+  margin-bottom: 10px
+}
+
+#profile #contact a {
+  color: #902d26;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  #header #name {
+    top: 150px;
+  }
+
+  #tagline {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+  #header #name {
+    top: 40px;
+  }
+
+  #profile {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  #profile img {
+    margin-top: 20px;
+  }
+
+  #contact {
+    margin-top: 40px;
+  }
+
 }
