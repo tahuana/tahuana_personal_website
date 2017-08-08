@@ -3,6 +3,10 @@
   margin-left: -15px;
 }
 
+#header img {
+  opacity: 0.5;
+}
+
 #header #name {
   position: absolute;
   top: 220px;
@@ -12,17 +16,13 @@
   padding-left: 0px;
 }
 
-#header img {
-  opacity: 0.5;
-}
-
 #header #name p:first-child {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 45px;
   color: #902d26;
   border-top: none;
   border-right: none;
-  border-bottom: thick solid;
+  border-bottom: 2px solid;
   border-left: none;
 }
 
@@ -32,4 +32,18 @@
   color: #902d26;
 }
 
-/*Arial, Helvetica, sans-serif*/
+#tagline {
+  margin-top: 20px;
+}
+#profile {
+  margin-top: 20px;
+}
+
+#profile {
+  color: #902d26;
+}
+
+#profile img {
+  width: 100%;
+  margin: 10px;
+}
