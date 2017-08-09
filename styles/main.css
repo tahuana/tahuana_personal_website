@@ -1,6 +1,8 @@
+
 #header {
   margin-right: -15px;
   margin-left: -15px;
+  color: #902d26;
 }
 
 #header img {
@@ -32,15 +34,14 @@
   color: #902d26;
 }
 
+
 #profile {
-  margin-top: 20px;
-  margin-right: 200px;
-  margin-left: 200px;
+  padding: 20px 200px;
   color: #902d26;
 }
 
 #profile img {
-  max-width: 165;
+  max-width: 165px;
   margin-top: 60px;
   margin-bottom: 10px
 }
@@ -49,6 +50,34 @@
   color: #902d26;
 }
 
+#portfolio {
+  background-color: #f3e7e6;
+  padding: 20px 200px;
+  color: #902d26;
+
+}
+
+
+#skills {
+    color: #902d26;
+}
+
+#experience {
+  background-color: #f3e7e6;
+  color: #902d26;
+
+}
+
+#education {
+    color: #902d26;
+
+}
+
+#footer {
+  background-color: #f3e7e6;
+  color: #902d26;
+
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
 
@@ -69,10 +98,10 @@
     top: 40px;
   }
 
-  #profile {
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
+  #profile, #portfolio {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   #profile img {
