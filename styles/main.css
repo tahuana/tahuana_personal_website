@@ -57,6 +57,26 @@
 
 }
 
+.carousel {
+  width: 85%;
+  margin: auto;
+}
+
+.portfolio-description {
+  background-color: #902d26;
+  color: #ffffff;
+  padding: 5px 20px;
+  /*padding-bottom: 100px;*/
+  /*margin-bottom: 0px;*/
+  opacity: 0.8;
+  text-align: center;
+  min-height: 150px;
+}
+
+.portfolio-photo {
+  width: 100%;
+
+}
 
 #skills {
     color: #902d26;
