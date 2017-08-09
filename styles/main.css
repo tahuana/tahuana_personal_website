@@ -35,7 +35,7 @@
 }
 
 
-#profile, #portfolio, #skills, #experience, #education {
+#profile, #portfolio, #skills, #experience, #education, #footer {
   padding: 20px 200px;
   color: #902d26;
 }
@@ -111,6 +111,9 @@
     font-size: 0.9em;
   }
 
+  .skill-details {
+    text-align: center;
+  }
 
 }
 
@@ -139,6 +142,10 @@
 
   .portfolio-description p {
     font-size: 0.9em;
+  }
+
+  .skill-details {
+    text-align: center;
   }
 
 }
