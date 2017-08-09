@@ -35,30 +35,28 @@
 }
 
 
-#profile {
+#profile, #portfolio, #skills, #experience, #education {
   padding: 20px 200px;
   color: #902d26;
 }
 
 #profile img {
   max-width: 165px;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 10px
 }
 
-#profile #contact a {
+#profile a, #education a {
   color: #902d26;
+  text-decoration: underline;
 }
 
-#portfolio {
+#portfolio, #experience {
   background-color: #f3e7e6;
-  padding: 20px 200px;
-  color: #902d26;
-
 }
 
 .carousel {
-  width: 85%;
+  width: 90%;
   margin: auto;
 }
 
@@ -66,31 +64,23 @@
   background-color: #902d26;
   color: #ffffff;
   padding: 5px 20px;
-  /*padding-bottom: 100px;*/
-  /*margin-bottom: 0px;*/
   opacity: 0.8;
   text-align: center;
   min-height: 150px;
 }
 
-.portfolio-photo {
-  width: 100%;
-
-}
-
 #skills {
-    color: #902d26;
+
 }
 
 #experience {
-  background-color: #f3e7e6;
-  color: #902d26;
+
 
 }
 
-#education {
-    color: #902d26;
-
+#education .row {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #footer {
@@ -107,7 +97,21 @@
 
   #contact {
     text-align: center;
+    margin-top: 40px;
   }
+
+  .carousel {
+    width: 100%;
+  }
+
+  #profile, #portfolio, #skills, #experience, #education {
+    padding: 20px 100px;
+  }
+
+  .portfolio-description p {
+    font-size: 0.9em;
+  }
+
 
 }
 
@@ -118,10 +122,8 @@
     top: 40px;
   }
 
-  #profile, #portfolio {
-    padding-top: 0px;
-    padding-right: 10px;
-    padding-left: 10px;
+  #profile, #portfolio, #skills, #experience, #education {
+    padding: 0px 10px;
   }
 
   #profile img {
@@ -130,6 +132,14 @@
 
   #contact {
     margin-top: 40px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .portfolio-description p {
+    font-size: 0.9em;
   }
 
 }
