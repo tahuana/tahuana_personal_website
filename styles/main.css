@@ -1,3 +1,20 @@
+.navbar-inverse > .container-fluid {
+  background-color: #a4524c;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: #f3e7e6 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
+  color: #ffffff !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #f3e7e6 !important;
+  color: #902d26 !important;
+}
+
 #header {
   margin-right: -15px;
   margin-left: -15px;
@@ -38,10 +55,6 @@
 #header #name p:last-child {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-}
-
-.navbar-inverse > .container-fluid {
-  background-color: #a4524c;
 }
 
 #profile, #portfolio, #skills, #experience, #education, #footer {
