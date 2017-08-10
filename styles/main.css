@@ -1,18 +1,26 @@
-
 #header {
   margin-right: -15px;
   margin-left: -15px;
   color: #902d26;
 }
 
-#header img {
+#header #photo-background {
+  position: fixed;
+  z-index: 1;
   opacity: 0.5;
+}
+
+#header #photo-transparency {
+  position: relative;
+  z-index: 2;
+  opacity: 0;
 }
 
 #header #name {
   position: absolute;
   top: 220px;
   left: 0;
+  z-index: 3;
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
@@ -21,7 +29,6 @@
 #header #name p:first-child {
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 45px;
-  color: #902d26;
   border-top: none;
   border-right: none;
   border-bottom: 2px solid;
@@ -31,13 +38,23 @@
 #header #name p:last-child {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+}
+
+#profile, #portfolio, #skills, #experience, #education, #footer {
+  position: relative;
+  z-index: 3;
+  opacity: 1;
+  /*background-color: #ffffff;*/
+  padding: 20px 200px;
   color: #902d26;
 }
 
+#profile, #skills, #education {
+  background-color: #ffffff;
+}
 
-#profile, #portfolio, #skills, #experience, #education, #footer {
-  padding: 20px 200px;
-  color: #902d26;
+#portfolio, #experience, #footer {
+  background-color: #f3e7e6;
 }
 
 #profile img {
@@ -50,9 +67,9 @@
   color: #902d26;
 }
 
-#portfolio, #experience {
+/*#portfolio, #experience {
   background-color: #f3e7e6;
-}
+}*/
 
 .carousel {
   width: 90%;
@@ -82,11 +99,11 @@
   margin-bottom: 15px;
 }
 
-#footer {
+/*#footer {
   background-color: #f3e7e6;
   color: #902d26;
 
-}
+}*/
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
 
@@ -103,7 +120,7 @@
     width: 100%;
   }
 
-  #profile, #portfolio, #skills, #experience, #education {
+  #profile, #portfolio, #skills, #experience, #education, #footer {
     padding: 20px 100px;
   }
 
@@ -120,7 +137,7 @@
     top: 40px;
   }
 
-  #profile, #portfolio, #skills, #experience, #education {
+  #profile, #portfolio, #skills, #experience, #education, #footer {
     padding: 0px 10px;
   }
 
@@ -138,6 +155,12 @@
 
   .portfolio-description p {
     font-size: 0.9em;
+  }
+
+  #footer p {
+    text-align: center;
+    margin: 10px;
+
   }
 
 }
