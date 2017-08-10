@@ -40,11 +40,15 @@
   font-size: 30px;
 }
 
+.navbar-inverse > .container-fluid {
+  background-color: #a4524c;
+}
+
 #profile, #portfolio, #skills, #experience, #education, #footer {
   position: relative;
   z-index: 3;
   opacity: 1;
-  padding: 20px 200px;
+  padding: 50px 200px;
   color: #902d26;
 }
 
@@ -85,12 +89,16 @@
   margin-bottom: 15px;
 }
 
+#footer {
+  padding: 30px 200px;
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
 
   #header #name {
-    top: 150px;
+    top: 190px;
   }
 
   #contact {
@@ -102,12 +110,16 @@
     width: 100%;
   }
 
-  #profile, #portfolio, #skills, #experience, #education, #footer {
-    padding: 20px 100px;
+  #profile, #portfolio, #skills, #experience, #education {
+    padding: 50px 100px;
   }
 
   .portfolio-description p {
     font-size: 0.9em;
+  }
+
+  #footer {
+    padding: 20px 100px;
   }
 
 }
@@ -116,11 +128,11 @@
 @media (max-width: 768px) {
 
   #header #name {
-    top: 40px;
+    top: 70px;
   }
 
-  #profile, #portfolio, #skills, #experience, #education, #footer {
-    padding: 0px 10px;
+  #profile, #portfolio, #skills, #experience, #education {
+    padding: 50px 10px;
   }
 
   #profile img {
@@ -139,10 +151,13 @@
     font-size: 0.9em;
   }
 
+  #footer {
+    padding: 20px 10px;
+  }
+
   #footer p {
     text-align: center;
     margin: 10px;
-
   }
 
 }
