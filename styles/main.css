@@ -102,6 +102,15 @@
   margin-bottom: 15px;
 }
 
+#experience .row {
+  margin-top: 20px;
+}
+
+#experience .company {
+  font-size: 0.9em;
+}
+
+
 #footer {
   padding: 30px 200px;
 }
