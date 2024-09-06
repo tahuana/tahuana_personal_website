@@ -3,7 +3,7 @@
   "name": "Viber demo",
   "description": "Viber demo",
   "metaData": {
-    "icon": "https://tahuana.github.io/tahuana_personal_website/viber-demo/images/icon.png",
+    "icon": "https://tahuana.github.io/tahuana_personal_website/viber-demo/images/icon.svg",
     "category": "Custom"
   },
   "type": "REST",
