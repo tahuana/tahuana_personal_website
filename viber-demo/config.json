@@ -3,7 +3,7 @@
   "name": "Viber demo",
   "description": "Viber demo",
   "metaData": {
-    "icon": "images/icon.svg",
+    "icon": "images/icon.png",
     "category": "Custom"
   },
   "type": "REST",
